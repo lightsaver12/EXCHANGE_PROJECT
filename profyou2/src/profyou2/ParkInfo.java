@@ -1,4 +1,4 @@
-package profyou2;
+package profyou22;
 
 public class ParkInfo {
 	private String date;

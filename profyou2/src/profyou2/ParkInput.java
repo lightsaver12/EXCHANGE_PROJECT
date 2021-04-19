@@ -1,4 +1,4 @@
-package profyou2;
+package profyou22;
 
 import java.util.Scanner;
 
@@ -11,8 +11,15 @@ public class ParkInput {
 	
 	public int Pass() {
 		int pass;
+		while(true) {
 		System.out.println("권종을 선택하세요\n1. 주간권\n2. 야간권");
 		pass = sc.nextInt();
+			if (pass != 1 && pass != 2) {
+				System.out.println("다시\n");
+			} else {
+				break;
+			}
+		}
 		return pass;
 	}
 	
@@ -27,8 +34,15 @@ public class ParkInput {
 	
 	public int Amount() {
 		int amount;
+		while (true) {
 		System.out.println("몇개를 주문하시겠습니까? (최대 10개)");
 		amount = sc.nextInt();
+			if (amount > 10) {
+				System.out.println("다시");
+			} else {
+				break;
+			}
+		}
 		return amount;
 	}
 	
