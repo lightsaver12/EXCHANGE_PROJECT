@@ -16,15 +16,14 @@ public class ParkWrite {
 		
 		if (file.exists() == false) {
 			bw = new BufferedWriter
-					(new OutputStreamWriter(new FileOutputStream(ParkConstValue.address, true),"MS949"));
+					(new OutputStreamWriter(new FileOutputStream(ParkConstValue.address, true)));
 			bw.write(data1);
 			bw.write(temp133);
 		} else {
 			bw = new BufferedWriter
-					(new OutputStreamWriter(new FileOutputStream(ParkConstValue.address, true),"MS949"));
+					(new OutputStreamWriter(new FileOutputStream(ParkConstValue.address, true)));
 			bw.write(temp133);
 		}
 		bw.close();
 	}
-
 }

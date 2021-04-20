@@ -5,10 +5,10 @@ import java.util.ArrayList;
 import java.util.Calendar;
 
 public class ParkOutput {
-	ArrayList<ParkInfo> infoArray = new ArrayList<ParkInfo>();
+	
 	Calendar cal = Calendar.getInstance();
 	SimpleDateFormat sdf = new SimpleDateFormat("YYYYMMdd");
-	ParkInfo info = null;
+	
 	
 	public void price (int Price) {
 		System.out.println("가격은 " + Price+ "원 입니다.\n감사합니다.");

@@ -19,6 +19,6 @@ public class ParkConstValue {
 	public static final double Natmerit_dis = 0.5;
 	public static final double Mulchild_dis = 0.2;
 	public static final double Pregnant_dis = 0.15;
-	public static final String address = "C:\\Users\\송준석\\Desktop\\Amusement Park.csv" ;
+	public static final String address = "C:\\Users\\송준석\\Desktop\\Amusement Park13.txt" ;
 	
 }

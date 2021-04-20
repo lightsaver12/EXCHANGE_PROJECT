@@ -118,7 +118,7 @@ public class ParkRun {
 	
 	public String Names (String date, int day_Or_Night, int ssn, int Amount, int preftreat, int ticketprice) throws IOException {
 		Calendar cal = Calendar.getInstance();
-		SimpleDateFormat sdf = new SimpleDateFormat("YYYYMMdd HH:mm:ss");
+		SimpleDateFormat sdf = new SimpleDateFormat("YYYYMMdd");
 		String temp1 = sdf.format(cal.getTime()) + "," + "";
 		
 		if (day_Or_Night == 1) {
